@@ -1,0 +1,10 @@
+[en]
+languageName = "English"
+weight = 1
+title = "My blog beats!!"
+#[languages.en.params]
+#linkedin = "https://linkedin.com/whoever"
+[de]
+languageName = "German"
+weight = 2
+title = "Meine Blog beats"
