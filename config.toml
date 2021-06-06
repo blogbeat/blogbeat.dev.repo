@@ -10,7 +10,7 @@ paginate = 5000 #frontpage pagination
       unsafe = true
 
 [params]
-  header_image = "../images/home_flowers.jpg"
+  header_image = "../images/homeflowers.jpg"
   title = "Mind Blog"
   slogan = "Blogs that beat"
   SEOTitle = "Blogbeats Blog"
