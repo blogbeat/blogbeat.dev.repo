@@ -1,7 +1,7 @@
 ---
 title:       "Shortcut tests"
-subtitle:    ""
-description: ""
+subtitle:    "subtitle"
+description: "description"
 date:        2021-06-06
 author:      "mm"
 image:       "images/avatar.jpg"
