@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: ''
+  label: sectionlabel
+  create: all
+  match: content/*
+- type: directory
   path: content/post
   label: Post
   create: all
