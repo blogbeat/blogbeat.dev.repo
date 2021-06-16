@@ -1,6 +1,6 @@
 baseurl = "https://blogbeat.github.io"
 title = "My blog beats"
-theme = "hugo-theme-cleanwhite"
+theme = "mm-theme"
 languageCode = "en-us"
 paginate = 5000 #frontpage pagination
 defaultContentLanguage = "en"
