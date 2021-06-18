@@ -14,8 +14,6 @@ defaultContentLanguage = "en"
 
 [params]
   header_image = "images/homeflowers.jpg"
-  title = "Mind Blog"
-  slogan = "Blog the beat"
   SEOTitle = "Blogbeats Blog"
   keyword = "Blogbeats, Blog , Beats, Mind, Thoughts"
 

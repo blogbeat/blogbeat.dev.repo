@@ -1,7 +1,8 @@
 [en]
 languageName = "English"
 weight = 1
-title = "My blog beats!!"
+title = "My blog beats!!!"
+slogan = "Blog the beat1"
 #[languages.en.params]
 #linkedin = "https://linkedin.com/whoever"
 [de]

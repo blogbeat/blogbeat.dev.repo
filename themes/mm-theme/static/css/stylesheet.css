@@ -1,0 +1,16 @@
+
+@font-face {
+    font-family: 'hey_augustregular';
+    src: url('/themes/mm-theme/static/css/fonts/heyaugust-qz73q-webfont.woff2') format('woff2'),
+         url('/themes/mm-theme/static/css/fonts/heyaugust-qz73q-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sontoloyoregular';
+    src: url('https://blogbeat.github.io/css/fonts/sontoloyo-webfont.woff2') format('woff2'),
+    url('https://blogbeat.github.io/css/fonts/sontoloyo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
