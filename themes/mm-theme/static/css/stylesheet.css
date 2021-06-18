@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'sontoloyoregular';
-    src: url('https://blogbeat.github.io/css/fonts/sontoloyo-webfont.woff2') format('woff2'),
-    url('https://blogbeat.github.io/css/fonts/sontoloyo-webfont.woff') format('woff');
+    src: url('https://github.com/blogbeat/blogbeat.github.io/blob/master/css/fonts/sontoloyo-webfont.woff2') format('woff2'),
+    url('https://github.com/blogbeat/blogbeat.github.io/blob/master/css/fonts/sontoloyo-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
