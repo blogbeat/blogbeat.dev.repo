@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
-
-h1 {
+/*Class to use for eg headline for graftitifont*/
+.grafitifont {
     font-family: 'hey_augustregular', arial, sans-serif;
     color: white;
     font-weight:normal;
     font-style:normal;
+    color: red;
 }
 
 @font-face {
@@ -15,16 +16,15 @@ h1 {
     font-weight: normal;
     font-style: normal;
 }
-/*local
-@font-face {
-    font-family: 'hey_augustregular';
-    src: url('http://localhost:1313/css/fonts/heyaugust-qz73q-webfont.woff2') format('woff2'),
-    url('http://localhost:1313/css/fonts/heyaugust-qz73q-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-*/
 
+.subtitle {
+    font-size: 15px;
+    line-height: 1.3;
+    margin: 0;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: grey;
+}
 /*===== Variables =====*/
 /* Theme Colors */
 /*

@@ -15,7 +15,7 @@ defaultContentLanguage = "en"
       customCSS = ["/css/custom.css"]
 
 [params]
-  header_image = "images/homeflowers.jpg"
+  header_image = "images/sunset.jpg"
   SEOTitle = "Blogbeats Blog"
   keyword = "Blogbeats, Blog , Beats, Mind, Thoughts"
   custom_css = ["/css/custom.css"]

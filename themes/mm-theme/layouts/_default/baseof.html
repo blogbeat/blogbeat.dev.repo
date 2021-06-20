@@ -4,21 +4,14 @@
 {{ partial "nav.html" . }}
 <!-- Page Header -->
 {{ block "header" .}}
-<!--mm<style>
-    h1 {
-        font-family: 'sontoloyoregular', sans-serif;
-        color: #2a7ae2;
-        font-weight:normal;
-        font-style:normal;
-    }
-</style>-->
+
 <header class="intro-header" style="background-image: url('{{ .Site.Params.header_image | relURL }}')">
 
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
                 <div class="site-heading">
-                    <h1>{{ .Site.Title}} </h1>
+                    <h1 class="grafitifont">{{ .Site.Title}} </h1>
                     <!--<hr class="small">-->
 		    <span class="subheading">{{ .Site.Params.slogan }}</span>
                 </div>

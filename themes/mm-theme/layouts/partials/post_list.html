@@ -2,25 +2,32 @@
 {{ range $index, $element := $.Paginator.Pages }}
 <div class="post-preview">
     <a href="{{ .Permalink }}">
+        {{ $summary := .Summary}}
+        {{$readtime := math.Round (div ( countwords $summary) 220.0)}}
         <h2 class="post-title">
             {{ .Title }}
         </h2>
-	{{with .Params.subtitle }}
-        <h3 class="post-subtitle">
-            {{ . }}
-        </h3>
-	{{ end }}
-        <div class="post-content-preview">
-	{{ with .Description }}
+        {{with .Params.subtitle }}
+        <!--<h3 class="post-subtitle">-->
+             <p class="post-subtitle" >{{ . }}&nbsp;<i class="fas fa-clock"></i>&nbsp;{{ math.Round (div ( countwords $summary) 220.0) }} min read</p>
+        <!--</h3>-->
+        {{ end }}
+
+
+        <div class="post-meta">
+            <!--todo: merge variable in one not empty, check with ifempty-->
+	    {{ with .Description }}
+
             {{ . }}
         {{ else }}
-            {{ .Summary}}
+
+            {{truncate 300 $summary}}
+
        {{ end }}
         </div>
 
     </a>
-
-
+    <br>
     <p class="post-meta">
         <i class="fas fa-user"></i>
             {{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }} &nbsp;
