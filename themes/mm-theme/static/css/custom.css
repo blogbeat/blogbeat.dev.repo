@@ -19,22 +19,27 @@
     color: grey;
 }
 
-h2,h3,h4,h5,h6 {
-    font-family: 'lessregular', arial, sans-serif;
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'ubuntubold', arial, sans-serif;
 }
 p{
-    font-family: 'lesslight', arial, sans-serif;
+    font-family: 'ubuntulight', arial, sans-serif;
 }
-/*todo edit font for ü,Ä,Ö*/
+
+.btn,.pager li>a,.pager li>span,.one-tag-list .tag-text{
+    font-family: 'ubuntumedium', arial, sans-serif;
+}
+
+
 body{
-    font-family: 'lessregular', arial, sans-serif;
+    font-family: 'ubuntumedium', arial, sans-serif;
 }
 
 textarea{
-    font-family: 'hey_augustregular', sans-serif;
+    font-family: 'ubuntulight', sans-serif;
 }
 input[type="submit"] {
-    font-family: 'hey_augustregular', sans-serif;
+    font-family: 'ubuntulight', sans-serif;
 }
 /* Fonts come here*/
 @font-face {
