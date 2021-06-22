@@ -19,6 +19,23 @@
     color: grey;
 }
 
+h2,h3,h4,h5,h6 {
+    font-family: 'lessregular', arial, sans-serif;
+}
+p{
+    font-family: 'lesslight', arial, sans-serif;
+}
+/*todo edit font for ü,Ä,Ö*/
+body{
+    font-family: 'lessregular', arial, sans-serif;
+}
+
+textarea{
+    font-family: 'hey_augustregular', sans-serif;
+}
+input[type="submit"] {
+    font-family: 'hey_augustregular', sans-serif;
+}
 /* Fonts come here*/
 @font-face {
     font-family: 'hey_augustregular';
@@ -29,30 +46,59 @@
 }
 
 @font-face {
-    font-family: 'lesslight';
-    src: url('https://blogbeat.github.io/css/fonts/less-light-webfont.woff2') format('woff2'),
-    url('https://blogbeat.github.io/css/fonts/less-light-webfont.woff') format('woff');
+    font-family: 'ubuntubold';
+    src: url('https://blogbeat.github.io/css/fonts/ubuntu-bold-webfont.woff2') format('woff2'),
+    url('https://blogbeat.github.io/css/fonts/ubuntu-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntumedium_italic';
+    src: url('https://blogbeat.github.io/css/fonts/ubuntu-mediumitalic-webfont.woff2') format('woff2'),
+    url('https://blogbeat.github.io/css/fonts/ubuntu-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('https://blogbeat.github.io/css/fonts/ubuntu-medium-webfont.woff2') format('woff2'),
+    url('https://blogbeat.github.io/css/fonts/ubuntu-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ubuntuitalic';
+    src: url('https://blogbeat.github.io/css/fonts/ubuntu-italic-webfont.woff2') format('woff2'),
+    url('https://blogbeat.github.io/css/fonts/ubuntu-italic-webfont.woff') format('woff');
+    font-weight: normal;
 
 }
 
 @font-face {
-    font-family: 'lessregular';
-    src: url('https://blogbeat.github.io/css/fonts/less-webfont.woff2') format('woff2'),
-    url('https://blogbeat.github.io/css/fonts/less-webfont.woff') format('woff');
+    font-family: 'ubunturegular';
+    src: url('https://blogbeat.github.io/css/fonts/ubuntu-regular-webfont.woff2') format('woff2'),
+    url('https://blogbeat.github.io/css/fonts/ubuntu-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
-    font-family: 'lessbold';
-    src: url('https://blogbeat.github.io/css/fonts/less-bold-webfont.woff2') format('woff2'),
-    url('https://blogbeat.github.io/css/fonts/less-bold-webfont.woff') format('woff');
+    font-family: 'ubuntulight_italic';
+    src: url('https://blogbeat.github.io/css/fonts/ubuntu-lightitalic-webfont.woff2') format('woff2'),
+    url('https://blogbeat.github.io/css/fonts/ubuntu-lightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('https://blogbeat.github.io/css/fonts/ubuntu-light-webfont.woff2') format('woff2'),
+    url('https://blogbeat.github.io/css/fonts/ubuntu-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
