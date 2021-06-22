@@ -1,20 +1,13 @@
 @charset "UTF-8";
 
 /*Class to use for eg headline for graftitifont*/
+
 .grafitifont {
     font-family: 'hey_augustregular', arial, sans-serif;
     color: white;
     font-weight:normal;
     font-style:normal;
     color: red;
-}
-
-@font-face {
-    font-family: 'hey_augustregular';
-    src: url('https://blogbeat.github.io/css/fonts/heyaugust-qz73q-webfont.woff2') format('woff2'),
-    url('https://blogbeat.github.io/css/fonts/heyaugust-qz73q-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
 
 .subtitle {
@@ -25,6 +18,43 @@
     margin-bottom: 10px;
     color: grey;
 }
+
+/* Fonts come here*/
+@font-face {
+    font-family: 'hey_augustregular';
+    src: url('https://blogbeat.github.io/css/fonts/heyaugust-qz73q-webfont.woff2') format('woff2'),
+    url('https://blogbeat.github.io/css/fonts/heyaugust-qz73q-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'crosssemibold_con';
+    src: url('cross-semiboldcon-webfont.woff2') format('woff2'),
+    url('cross-semiboldcon-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'crossregular';
+    src: url('https://blogbeat.github.io/css/fonts/cross-regular-webfont.woff2') format('woff2'),
+    url('https://blogbeat.github.io/css/fonts/cross-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'crosslight_exp_oblique';
+    src: url('https://blogbeat.github.io/css/fonts/cross-lightexpoblique-webfont.woff2') format('woff2'),
+    url('https://blogbeat.github.io/css/fonts/cross-lightexpoblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*===== Variables =====*/
 /* Theme Colors */
 /*
