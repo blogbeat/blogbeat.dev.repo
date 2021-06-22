@@ -29,31 +29,32 @@
 }
 
 @font-face {
-    font-family: 'crosssemibold_con';
-    src: url('cross-semiboldcon-webfont.woff2') format('woff2'),
-    url('cross-semiboldcon-webfont.woff') format('woff');
+    font-family: 'lesslight';
+    src: url('https://blogbeat.github.io/css/fonts/less-light-webfont.woff2') format('woff2'),
+    url('https://blogbeat.github.io/css/fonts/less-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'crossregular';
-    src: url('https://blogbeat.github.io/css/fonts/cross-regular-webfont.woff2') format('woff2'),
-    url('https://blogbeat.github.io/css/fonts/cross-regular-webfont.woff') format('woff');
+    font-family: 'lessregular';
+    src: url('https://blogbeat.github.io/css/fonts/less-webfont.woff2') format('woff2'),
+    url('https://blogbeat.github.io/css/fonts/less-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'crosslight_exp_oblique';
-    src: url('https://blogbeat.github.io/css/fonts/cross-lightexpoblique-webfont.woff2') format('woff2'),
-    url('https://blogbeat.github.io/css/fonts/cross-lightexpoblique-webfont.woff') format('woff');
+    font-family: 'lessbold';
+    src: url('https://blogbeat.github.io/css/fonts/less-bold-webfont.woff2') format('woff2'),
+    url('https://blogbeat.github.io/css/fonts/less-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
+
 
 /*===== Variables =====*/
 /* Theme Colors */
