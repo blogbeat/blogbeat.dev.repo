@@ -4,7 +4,7 @@ subtitle:    "Ein ordentlicher Post"
 #description: "DESCIPTION"
 date:        "2021-06-20T20:01:09+02:00"
 author:     "BlogBeats"
-image:       ""
+featured_image: "/images/404.jpg"
 tags:        ["tag1", "tag2"]
 categories:  ["Tech" ]
 ---

@@ -1,30 +1,63 @@
 <!-- post list -->
 {{ range $index, $element := $.Paginator.Pages }}
 <div class="post-preview">
+
     <a href="{{ .Permalink }}">
         {{ $summary := .Summary}}
         {{$readtime := math.Round (div ( countwords $summary) 220.0)}}
+
+        {{/* Declare a new string variable, $linkToCover */}}
+        {{ $linkToCover := "" }}
+
+        {{/* Use the value from front matter if present */}}
+            {{ if .Params.featured_image }}
+        {{ $linkToCover = .Params.featured_image }}
+
+        {{/* Find the first image with 'cover' in the name in this page bundle. */}}
+        {{ else }}
+            {{ $img := (.Resources.ByType "image").GetMatch "*cover*" }}
+            {{ with $img }}
+                {{ $linkToCover = .Permalink }}
+            {{ end }}
+        {{ end }}
+
         <h2 class="post-title">
             {{ .Title }}
         </h2>
         {{with .Params.subtitle }}
-        <!--<h3 class="post-subtitle">-->
-             <p class="post-subtitle" >{{ . }}&nbsp;&nbsp;<i class="fas fa-clock"></i>&nbsp;{{ math.Round (div ( countwords $summary) 220.0) }} min read</p>
-        <!--</h3>-->
+            <p class="post-subtitle" >{{ . }}&nbsp;&nbsp;<i class="fas fa-clock"></i>&nbsp;{{ math.Round (div ( countwords $summary) 220.0) }} min read</p>
         {{ end }}
+        <!--<img class="" src="/images/avatar.jpg" width="250px">-->
 
-
+        <!--
         <div class="post-meta">
-            <!--todo: merge variable in one not empty, check with ifempty-->
 	    {{ with .Description }}
-
             {{ . }}
         {{ else }}
-
             {{truncate 300 $summary}}
-
        {{ end }}
         </div>
+        -->
+
+
+        <div class="row">
+            {{ if $linkToCover }}
+            <div class="col-lg-4">
+                <img class="img-responsive pull-right" src="{{$linkToCover}}" width="250px">
+            </div>
+            {{ end }}
+            <div class="text-left col-lg-8">
+                <div class="post-meta" >
+                    {{ with .Description }}
+                    {{ . }}
+                    {{ else }}
+                    {{truncate 300 $summary}}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+
+
 
     </a>
 
@@ -38,10 +71,15 @@
     <br>Last Modified on {{ dateFormat "January 2, 2006" .Params.LastMod }}
     {{ end }}
     </p>
+
     <a href="{{ .Permalink }}" class="btn btn-default btn-lg active btn-sm" role="button">READ MORE</a>
 
 
 </div>
+
+
+
+
 
 <hr>
 

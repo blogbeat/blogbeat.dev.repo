@@ -1,10 +1,10 @@
 ---
-title:       "Heute"
-subtitle:    "Regnet es"
-description: "Aber das stört nicht"
+title:       "Ubuntu-Schrift"
+subtitle:    "Subtitle in light"
+description: "das ist der Description-Tag und hier gibt es kein Bild"
 date:        "2021-06-22T18:43:51+02:00"
 author:     "BlogBeats"
-image:       ""
+#featured_image:       "avatar.jpg"
 tags:        ["tag1", "tag2"]
 categories:  ["Tech" ]
 ---

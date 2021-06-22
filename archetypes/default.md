@@ -5,7 +5,7 @@ subtitle: "{{ replace .Name "-" " " | subtitle }}"
 date: {{ .Date }}
 draft: true
 author: "blogbeat"
-image:   ""
+#featured_image:   ""
 tags:  ["blog"]
 categories:  ["tech"]
 ---

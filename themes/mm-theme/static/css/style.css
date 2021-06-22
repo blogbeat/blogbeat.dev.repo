@@ -2285,7 +2285,7 @@ li.pingback:first-child {
 .gallery-caption {
   color: #8c8c8c;
   display: block;
-  font-family: "raleway", sans-serif;
+  post-preview: "raleway", sans-serif;
   font-size: 12px;
   padding: 0.5em 0;
 }
