@@ -4,10 +4,9 @@
 
 .grafitifont {
     font-family: 'hey_augustregular', arial, sans-serif;
-    color: white;
+    color: #109648;
     font-weight:normal;
     font-style:normal;
-    color: red;
 }
 
 .subtitle {
@@ -16,11 +15,12 @@
     margin: 0;
     font-weight: 300;
     margin-bottom: 10px;
-    color: grey;
+    color: blue;
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'ubuntubold', arial, sans-serif;
+    color: #109648;
 }
 p{
     font-family: 'ubuntulight', arial, sans-serif;
