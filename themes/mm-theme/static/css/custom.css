@@ -15,7 +15,7 @@
     margin: 0;
     font-weight: 300;
     margin-bottom: 10px;
-    color: blue;
+    color: #05668d;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -24,6 +24,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 p{
     font-family: 'ubuntulight', arial, sans-serif;
+    color: #05668d;
 }
 
 .btn,.pager li>a,.pager li>span,.one-tag-list .tag-text{
@@ -38,6 +39,7 @@ body{
 
 textarea{
     font-family: 'ubuntulight', sans-serif;
+
 }
 input[type="submit"] {
     font-family: 'ubuntulight', sans-serif;
